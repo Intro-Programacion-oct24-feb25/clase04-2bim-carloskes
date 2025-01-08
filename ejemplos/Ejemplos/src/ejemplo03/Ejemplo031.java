@@ -1,9 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+
+generar una solucion que permita sumar 2 numero a traves de un metodo, los
+numero deben ser ingresados en el metodo main, el metodo que genera la suma
+debe verificar que los 2 numeros sean positivos para realizar la operacion,
+caso contrario debe devolver 0 como suma.
+
  */
-package ejemplos01;
+package ejemplo03;
 import java.util.Scanner;
        
 
@@ -11,7 +14,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo03 {
+public class Ejemplo031 {
 
     public static void main(String[] args) {
         int valor1;
@@ -32,9 +35,15 @@ public class Ejemplo03 {
     
     public static int obtenerSuma(int a, int b){
         int suma;
+        if (a < 1 || b < 1 ){
+            suma = 0;
+        }else{
         suma = a + b;
+        }
         return suma;
         // return a + b;
+        
+        
     }
     
     
