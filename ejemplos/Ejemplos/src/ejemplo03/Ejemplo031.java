@@ -27,7 +27,7 @@ public class Ejemplo031 {
         valor2 = entrada.nextInt();
         int valor = obtenerSuma(valor1, valor2); // se invoca al método 
                                          // obtenerSuma
-        System.out.printf("El valor de la suma es: %d\n", valor);
+        System.out.printf("El valor de la \"suma\" es: %d\n", valor);
         
         // System.out.printf("El valor de la suma es: %d\n", obtenerSuma(10, 30));
     }
